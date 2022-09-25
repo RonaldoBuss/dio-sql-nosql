@@ -13,3 +13,11 @@ O uso mais comum de SGBDRs é para implementar funcionalidades simples do tipo C
 * Forçar integridade referencial  
 
 ## Banco de dados Não Relacional (NoSQL):  
+Um banco de dados não relacional é um banco de dados que não usa o esquema de tabela de linhas e colunas encontrado na maioria dos sistemas de banco de dados tradicionais. Em vez disso, os bancos de dados não relacionais usam um modelo de armazenamento otimizado para os requisitos específicos do tipo de dados que está sendo armazenado. Por exemplo, os dados podem ser armazenados como pares chave/valor simples, como documentos JSON ou como um gráfico que consiste em bordas e vértices.  
+O que esses armazenamentos de dados têm em comum é que eles não usam um modelo relacional. Além disso, eles tendem a ser mais específicos no tipo de dados ao qual dão suporte e no modo como os dados podem ser consultados. Por exemplo, os armazenamentos de dados de série temporal são otimizados para consultas em sequências de dados baseadas em tempo. No entanto, os armazenamentos de dados de grafo são otimizados para explorar as relações ponderadas entre entidades. Nenhum dos dois formatos será bem generalizado para a tarefa de gerenciamento de dados transacionais.  
+
+### Principais categorias de banco de dados não relacional (NoSQL):  
+* Armazenamentos de dados de documentos (Principal: MongoDB)  
+* Armazenamentos de dados de colunas (Principal: Cassandra)
+* Armazenamentos de dados de chave/valor (Principal: Redis)  
+* Armazenamentos de dados de grafos (Principal: Neo4j)  
